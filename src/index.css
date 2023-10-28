@@ -8,7 +8,8 @@ body {
   justify-content: center;
 }
 
-.movie-container{
+/* styled-component로 빼버림
+.movie-container {
   width: 250px;
   margin: 16px;
   background-color: #373b69;
@@ -17,7 +18,7 @@ body {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.movie-container img{
+.movie-container img {
   max-width: 100%;
 }
 
@@ -26,6 +27,7 @@ body {
   padding: 20px;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .movie-info h4 {
@@ -35,3 +37,23 @@ body {
 .movie-info span {
   margin-left: 3px;
 }
+*/
+
+
+/*
+.movie-info {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.movie-info.show {
+  display: block;
+}
+*/

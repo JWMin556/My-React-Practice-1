@@ -1,4 +1,4 @@
-import Movie from "./components/Movie";
+import Movie from "./components/Movie/Movie";
 import { dummy } from "./movieDummy";
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
                 title={item.title}
                 poster_path={item.poster_path}
                 vote_average={item.vote_average}
+                //overview={item.overview}  //이것을 추가
               />
             )
           })
